@@ -51,7 +51,6 @@
 				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
-		<finalName>jenkins-docker</finalName>
 	</build>
 
 </project>
