@@ -51,6 +51,7 @@
 				<version>${project.parent.version}</version>
 			</plugin>
 		</plugins>
+		<finalName>webtours</finalName>
 	</build>
 
 </project>

@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/WebToursPayment-0.0.1-SNAPSHOT.jar WebToursPayment-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java", "-jar", "/WebToursPayment-0.0.1-SNAPSHOT.jar"]
+ADD target/webtours.jar webtours.jar
+ENTRYPOINT ["java", "-jar", "/webtours.jar"]
